@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SellElite Agency – Création de Sites Vitrines Modernes et Performants
+Bienvenue dans le dépôt officiel du site vitrine de SellElite Agency – une agence spécialisée dans la conception de sites vitrines modernes, performants et optimisés pour la conversion, destinés aux PME et infopreneurs africains.
 
-## Getting Started
+ À propos
+SellElite Agency aide les entreprises à briller en ligne grâce à :
 
-First, run the development server:
+Des designs élégants et adaptés à leur image.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Une optimisation SEO pour une meilleure visibilité.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Des performances optimales pour offrir la meilleure expérience utilisateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Une intégration fluide avec les outils marketing et CRM.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Fonctionnalités
+Design moderne & responsive (adapté à tous les écrans)
 
-## Learn More
+SEO friendly pour un meilleur classement sur Google
 
-To learn more about Next.js, take a look at the following resources:
+Performance optimisée (Core Web Vitals)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Mode clair / sombre
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Formulaire de contact intégré avec Formspree
 
-## Deploy on Vercel
+Technologies récentes pour plus de rapidité et de fiabilité
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ Stack technique
+Next.js – Framework React ultra rapide
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind CSS – Design moderne et personnalisable
+
+TypeScript – Code robuste et typé
+
+Formspree – Gestion simple des formulaires
+
+Shadcn/UI – Composants UI modernes
+
+Google Fonts (Inter & Poppins) – Typographie élégante
