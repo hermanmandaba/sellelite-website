@@ -1,7 +1,9 @@
 SellElite Agency – Création de Sites Vitrines Modernes et Performants
+
 Bienvenue dans le dépôt officiel du site vitrine de SellElite Agency – une agence spécialisée dans la conception de sites vitrines modernes, performants et optimisés pour la conversion, destinés aux PME et infopreneurs africains.
 
- À propos
+📌 À propos
+
 SellElite Agency aide les entreprises à briller en ligne grâce à :
 
 Des designs élégants et adaptés à leur image.
@@ -12,7 +14,8 @@ Des performances optimales pour offrir la meilleure expérience utilisateur.
 
 Une intégration fluide avec les outils marketing et CRM.
 
- Fonctionnalités
+✨ Fonctionnalités
+
 Design moderne & responsive (adapté à tous les écrans)
 
 SEO friendly pour un meilleur classement sur Google
@@ -25,7 +28,8 @@ Formulaire de contact intégré avec Formspree
 
 Technologies récentes pour plus de rapidité et de fiabilité
 
- Stack technique
+🛠️ Stack technique
+
 Next.js – Framework React ultra rapide
 
 Tailwind CSS – Design moderne et personnalisable

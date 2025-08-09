@@ -1,7 +1,12 @@
 import Image from "next/image";
+import Header from "./pages/Header";
 
 export default function Home() {
   return (
+    <>
+    <div className="min-h-screen font-inter">
+      <Header/>
+    </div>
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <header className="flex items-center justify-between w-full max-w-4xl">
         <Image
@@ -27,5 +32,6 @@ export default function Home() {
         &copy; {new Date().getFullYear()} SellElite Agency. Tous droits réservés.
       </footer>
     </div>
+    </>
   );
 }

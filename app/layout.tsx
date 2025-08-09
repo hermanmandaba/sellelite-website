@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
+import { LanguageProvider } from "./contexts/LanguageContexts";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -17,7 +18,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SellElite Agency | Sites vitrines pour PME & infopreneurs",
+  title: "SellElite Agency",
   description: 
   "SellElite Agency crée des sites vitrines modernes, rapides et optimisés pour les PME et infopreneurs en Afrique. Boostez votre visibilité, attirez plus de clients et développez votre activité avec un site professionnel sur mesure.",
 };
@@ -33,7 +34,9 @@ export default function RootLayout({
       suppressHydrationWarning
         className={`${inter.variable} ${poppins.variable} antialiased`}
       >
+        <LanguageProvider>
         {children}
+        </LanguageProvider>
       </body>
     </html>
   );

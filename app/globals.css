@@ -2,8 +2,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* ====== Variantes ====== */
-@custom-variant dark (&:is(.dark *));
 
 /* ====== Fonts ====== */
 :root {
