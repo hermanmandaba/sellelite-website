@@ -86,7 +86,7 @@ const HeroSection = () => {
               {t('hero.trust')}
             </p>
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-              {["TechCorp", "InnovLab", "GrowthCo", "ScalePro", "NextGen"].map((company, index) => (
+              {["TechCorp", "InnovLab", "GrowthCo", "ScalePro", "NextGen"].map((company) => (
                 <div 
                   key={company} 
                   className="text-[#B0B8D1]/60 font-medium text-lg tracking-wide cursor-default"

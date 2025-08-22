@@ -1,7 +1,7 @@
 'use client'
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card-hover-effect";
-import { ArrowRight, BarChart, Code, Megaphone, PenTool, Search, Users } from "lucide-react";
+import { ArrowRight, Code, Megaphone, PenTool, Search } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContexts";
 
 
@@ -12,16 +12,16 @@ const ServicesSection = () => {
   
   const services = [
     {
+      icon: Megaphone,
+      title: "Marketing Digital",
+      description: "Stratégies sur-mesure pour booster votre visibilité et vos conversions.",
+      features: ["Publicité en ligne", "Social media", "Email marketing", "Content marketing"]
+    },
+    {
       icon: Search,
       title: "SEO & Référencement",
       description: "Positionnement #1 sur Google avec notre expertise technique et éditoriale avancée.",
       features: ["Audit SEO complet", "Optimisation technique", "Content marketing", "Link building"]
-    },
-    {
-      icon: Megaphone,
-      title: "Publicité Digitale",
-      description: "Campagnes Google Ads et Meta optimisées pour maximiser votre ROI.",
-      features: ["Google Ads", "Meta Ads", "LinkedIn Ads", "Retargeting"]
     },
     {
       icon: PenTool,
@@ -34,18 +34,6 @@ const ServicesSection = () => {
       title: "Développement Web",
       description: "Sites performants et optimisés pour la conversion et la vitesse.",
       features: ["Sites vitrine", "E-commerce", "Applications", "Maintenance"]
-    },
-    {
-      icon: BarChart,
-      title: "Analytics & Data",
-      description: "Analyse poussée de vos données pour des décisions stratégiques éclairées.",
-      features: ["Tracking avancé", "Reporting", "Data viz", "KPIs"]
-    },
-    {
-      icon: Users,
-      title: "Growth Marketing",
-      description: "Stratégies de croissance explosive basées sur l'expérimentation.",
-      features: ["Growth hacking", "A/B testing", "Funnel optimization", "Automation"]
     }
   ];
 
